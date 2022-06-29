@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import LoginView from "../views/LoginView.vue"
 import LogoutView from "../views/LogoutView.vue"
 import ResumesNew from "../views/ResumesNew.vue"
+import ResumesEdit from "../views/ResumesEdit.vue"
 
 const routes = [
   {
@@ -32,6 +33,11 @@ const routes = [
     path: "/resumes/new", 
     name: "resumes-new", 
     component: ResumesNew 
+  },
+  { 
+    path: "/resumes/edit", 
+    name: "resumes-edit", 
+    component: ResumesEdit
   }
 ]
 

@@ -5,6 +5,7 @@
     <router-link to="/login">Login</router-link> |
     <router-link to="/logout">Logout</router-link> |
     <router-link to="/resumes/new">Create New Resume</router-link> |
+    <router-link to="/resumes/:id/edit">Edit Resume</router-link> |
 
   </nav>
   <router-view/>
