@@ -4,7 +4,6 @@
 
 Add education ++ to new edit and show
 
-netlify
 
 
 

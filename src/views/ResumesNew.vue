@@ -18,7 +18,7 @@ import axios from 'axios';
           github_url: "",
           photo: "",
           experience: {
-            start_date: "",
+            start_date: "June 2022",
             end_date: "",
             job_title: "",
             company_name: "",
@@ -89,12 +89,8 @@ import axios from 'axios';
         <input v-model="newResumeParams.LinkedIn_URL" type="text">
       </div>
       <div>
-
-        <div>
-          Twitter Handle:
-          @
-          <input v-model="newResumeParams.twitter_handle" type="text">
-        </div>
+        Twitter Handle: @
+        <input v-model="newResumeParams.twitter_handle" type="text">
       </div>
       <div>
         Personal Blog:
@@ -111,6 +107,75 @@ import axios from 'axios';
       <div>
         Photo:
         <input v-model="newResumeParams.photo" type="text">
+      </div>
+      <div>
+        Experience:
+        <div>
+          Start Date: 
+          <input v-model="newResumeParams.experience.start_date" type="text">
+        </div>
+        <div>
+          End Date: 
+          <input v-model="newResumeParams.experience.end_date" type="text">
+        </div>
+        <div>
+          Job Title: 
+          <input v-model="newResumeParams.experience.job_title" type="text">
+        </div>
+        <div>
+          Company Name: 
+          <input v-model="newResumeParams.experience.company_name" type="text">
+        </div>
+        <div>
+          Details: 
+          <input v-model="newResumeParams.experience.details" type="text">
+        </div>
+      </div>
+      <div>
+        Education:
+        <div>
+          Start Date: 
+          <input v-model="newResumeParams.education.start_date" type="text">
+        </div>
+        <div>
+          End Date: 
+          <input v-model="newResumeParams.education.end_date" type="text">
+        </div>
+        <div>
+          Degree: 
+          <input v-model="newResumeParams.education.degree" type="text">
+        </div>
+        <div>
+          University Name: 
+          <input v-model="newResumeParams.education.university_name" type="text">
+        </div>
+        <div>
+          Details: 
+          <input v-model="newResumeParams.education.details" type="text">
+        </div>
+      </div>
+      <div>
+        Skills:
+        <input v-model="newResumeParams.skills" type="text">
+      </div>
+      <div>
+        Projects:
+        <div>
+          Name: 
+          <input v-model="newResumeParams.projects.name" type="text">
+        </div>
+        <div>
+          Description: 
+          <input v-model="newResumeParams.projects.description" type="text">
+        </div>
+        <div>
+          URL: 
+          <input v-model="newResumeParams.projects.url" type="text">
+        </div>
+        <div>
+          Screenshot (optional): 
+          <input v-model="newResumeParams.projects.screenshot" type="text">
+        </div>
       </div>
       <button v-on:click="createResume()">Create Resume</button>
 

@@ -82,6 +82,75 @@
         Photo:
         <input v-model="editResumeParams.photo" type="text">
       </div>
+      <div>
+        Experience:
+        <div>
+          Start Date: 
+          <input v-model="editResumeParams.experience.start_date" type="text">
+        </div>
+        <div>
+          End Date: 
+          <input v-model="editResumeParams.experience.end_date" type="text">
+        </div>
+        <div>
+          Job Title: 
+          <input v-model="editResumeParams.experience.job_title" type="text">
+        </div>
+        <div>
+          Company Name: 
+          <input v-model="editResumeParams.experience.company_name" type="text">
+        </div>
+        <div>
+          Details: 
+          <input v-model="editResumeParams.experience.details" type="text">
+        </div>
+      </div>
+      <div>
+        Education:
+        <div>
+          Start Date: 
+          <input v-model="editResumeParams.education.start_date" type="text">
+        </div>
+        <div>
+          End Date: 
+          <input v-model="editResumeParams.education.end_date" type="text">
+        </div>
+        <div>
+          Degree: 
+          <input v-model="editResumeParams.education.degree" type="text">
+        </div>
+        <div>
+          University Name: 
+          <input v-model="editResumeParams.education.university_name" type="text">
+        </div>
+        <div>
+          Details: 
+          <input v-model="editResumeParams.education.details" type="text">
+        </div>
+      </div>
+      <div>
+        Skills:
+        <input v-model="editResumeParams.skills" type="text">
+      </div>
+      <div>
+        Projects:
+        <div>
+          Name: 
+          <input v-model="editResumeParams.projects.name" type="text">
+        </div>
+        <div>
+          Description: 
+          <input v-model="editResumeParams.projects.description" type="text">
+        </div>
+        <div>
+          URL: 
+          <input v-model="editResumeParams.projects.url" type="text">
+        </div>
+        <div>
+          Screenshot (optional): 
+          <input v-model="editResumeParams.projects.screenshot" type="text">
+        </div>
+      </div>
       <button v-on:click="updateResume()">Update Resume</button>
     </div>
   </div>
