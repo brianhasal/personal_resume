@@ -7,6 +7,7 @@ show action for us vs show action for other frontend team
 Is there a difference between non login index page vs logged in user index page
 
 my resume id? individual show?
+(where do we land once we've logged in, and is it different than when you don't log in?)
 
 
 Add loops/components:

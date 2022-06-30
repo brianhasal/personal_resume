@@ -2,8 +2,10 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import LoginView from "../views/LoginView.vue"
 import LogoutView from "../views/LogoutView.vue"
+import SignupView from "../views/SignupView.vue"
 import ResumesNew from "../views/ResumesNew.vue"
 import ResumesEdit from "../views/ResumesEdit.vue"
+import ResumesShow from "../views/ResumesShow.vue"
 
 const routes = [
   {
@@ -38,6 +40,16 @@ const routes = [
     path: "/resumes/edit", 
     name: "resumes-edit", 
     component: ResumesEdit
+  },
+  { 
+    path: "/signup", 
+    name: "signup", 
+    component: SignupView 
+  },
+  {
+    path: "/resumes/:id", 
+    name: "resumes-show", 
+    component: ResumesShow 
   }
 ]
 
