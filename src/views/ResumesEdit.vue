@@ -82,7 +82,7 @@
         Photo:
         <input v-model="editResumeParams.photo" type="text">
       </div>
-      <div>
+      <!-- <div>
         Experience:
         <div>
           Start Date: 
@@ -150,7 +150,7 @@
           Screenshot (optional): 
           <input v-model="editResumeParams.projects.screenshot" type="text">
         </div>
-      </div>
+      </div> -->
       <button v-on:click="updateResume()">Update Resume</button>
     </div>
   </div>

@@ -37,7 +37,7 @@ const routes = [
     component: ResumesNew 
   },
   { 
-    path: "/resumes/edit", 
+    path: "/resumes/:id/edit", 
     name: "resumes-edit", 
     component: ResumesEdit
   },
