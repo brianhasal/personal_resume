@@ -7,6 +7,7 @@
     <router-link to="/resumes/new">Create New Resume</router-link> |
     <router-link to="/resumes/:id/edit">Edit Resume</router-link> |
     <router-link to="/signup">Signup</router-link> |
+    <a href="https://chimerical-moxie-ad235a.netlify.app/students">All Students</a>
 
   </nav>
   <router-view/>

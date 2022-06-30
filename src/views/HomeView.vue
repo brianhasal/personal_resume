@@ -1,18 +1,27 @@
+<script>
+  export default {
+    data: function () {
+      return {
+
+      };
+    },
+    created: function () {},
+    methods: {},
+  };
+</script>
+
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-    </div>
-</template>
-<!-- Hello this is alex meyers -->
-<script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+    <h1>My Resume Data</h1>
+    <div>
 
-export default {
-  name: 'HomeView',
-  components: {
-    HelloWorld
-  }
-}
-</script>
+      <a href="/resumes/:id">Show/Edit Resume</a>
+    </div>
+    <div>
+
+      <a href="/resumes/new">Create Resume</a>
+    </div>
+  </div>
+</template>
+
+<style></style>

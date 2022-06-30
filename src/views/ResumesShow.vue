@@ -46,6 +46,9 @@
       <p>{{resume.photo}}</p>
 
     </div>
+    <div>
+      <a href="/">Back to Resume Home</a>
+    </div>
 
   </div>
 </template>

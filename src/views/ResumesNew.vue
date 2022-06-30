@@ -12,11 +12,32 @@ import axios from 'axios';
           phone_number: "212-555-1212",
           short_bio: "Sample Bio Text",
           LinkedIn_URL: "http://test.com",
-          twitter_handle: "@samplething1212",
+          twitter_handle: "samplething1212",
           personal_blog: "(sample)",
           online_resume_url: "",
           github_url: "",
           photo: "",
+          experience: {
+            start_date: "",
+            end_date: "",
+            job_title: "",
+            company_name: "",
+            details: ""
+          },
+          education: {
+            start_date: "",
+            end_date: "",
+            degree: "",
+            university_name: "",
+            details: ""
+          },
+          skills: {},
+          projects: {
+            name: "",
+            description: "",
+            url: "",
+            screenshot: ""
+          }
         },
         error: []
       };
@@ -68,8 +89,12 @@ import axios from 'axios';
         <input v-model="newResumeParams.LinkedIn_URL" type="text">
       </div>
       <div>
-        Twitter Handle:
-        <input v-model="newResumeParams.twitter_handle" type="text">
+
+        <div>
+          Twitter Handle:
+          @
+          <input v-model="newResumeParams.twitter_handle" type="text">
+        </div>
       </div>
       <div>
         Personal Blog:
