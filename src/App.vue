@@ -1,7 +1,14 @@
 <template>
   <nav>
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <!-- <router-link to="/about">About</router-link> | -->
+    <router-link to="/login">Login</router-link> |
+    <router-link to="/logout">Logout</router-link> |
+    <router-link to="/resumes/new">Create New Resume</router-link> |
+    <router-link to="/resumes/:id/edit">Edit Resume</router-link> |
+    <router-link to="/signup">Signup</router-link> |
+    <a href="https://chimerical-moxie-ad235a.netlify.app/students">All Students</a>
+
   </nav>
   <router-view/>
 </template>

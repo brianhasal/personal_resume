@@ -1,0 +1,58 @@
+
+
+
+
+Add education ++ to new edit and show
+
+netlify
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+naming conventions /students vs /resumes
+
+
+Is there a difference between non login index page vs logged in user index page
+
+
+
+
+Add loops/components:
+
+Experience
+Start Date
+End Date
+Job Title
+Company Name
+Details (one long text field)
+Education
+Start Date
+End Date
+Degree
+University Name
+Details (one long text field)
+Skills
+Skill Name (E.g. Ruby, HTML, CSS)
+Projects
+Name
+Description
+URL
+Screenshot (Optional)
